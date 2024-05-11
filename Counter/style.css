@@ -1,0 +1,50 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2';
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6vw;
+}
+
+.container h1{
+    font-size: 5vw;
+    font-weight: bold;
+    /* background-color: red; */
+}
+
+.button-container{ 
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+button{
+    padding:0vh 1vh; 
+    color: black;
+    border-radius: 6px;
+}
+    
+button:hover{
+   background-color: black;
+   color: white;
+   border: 2px solid white;
+}
+.btn{
+    margin: 5vh;  
+    font-size: 1.2vw;
+    text-transform: uppercase;
+}
+span{ 
+    font-size: 8vw;
+    margin-top: -4vh;
+    margin-bottom: -7vh; 
+    font-weight: bold ;
+}
